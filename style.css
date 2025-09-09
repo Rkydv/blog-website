@@ -182,3 +182,202 @@ h2{
 p{
     font-family: cursive;
 }
+footer{
+    display: flex;
+    gap:10px;
+    justify-content:center;
+    margin-top:25px ;
+    margin-bottom:15px ;
+}
+footer .icn .icni{
+    
+    height: 25px;
+    width: 20px;
+    /* position: absolute; */
+    margin-right: 25PX;
+    right: 10px;
+    /* justify-content:space-between;
+    align-content: end; */
+}
+footer .icn .icni:hover{
+    
+    height: 29px;
+    width: 25px;
+}
+.sub{
+    /* margin: auto; */
+
+}
+
+.frm1{
+    margin: auto;
+    margin-top: 19px;
+    padding: 12px;
+    height: 250px;
+    width: 250px;
+    /* border: 1px white solid; */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap:10px ;
+    background-color: #121212;
+    border-radius: 5px;
+}
+form h2{
+    font-size: 2rem;
+}
+label{
+    font-size: 1.5rem;
+}
+input{
+    /* all:unset; */
+    
+    border: none;
+    background-color: black;
+}
+button{
+    all:unset;
+    cursor: pointer;
+    color:white;
+    background-color: black;
+    /* padding: 2px; */
+    margin-top: 30px;
+    font-size: 1.3rem;
+    height: 2.2rem;
+    width: 6.2rem;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+
+.aboutus{
+      /* height:100%;
+    width:90% ;
+    background-color: #fff;
+    align-content: center;
+    
+    margin: auto;
+   
+    /* background-image: url(hero.jpg); */
+    /* background-color: #121212;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center; */ 
+     margin-top: 15px;
+    
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+
+}
+.aboutus .abt{
+    display: flex;
+    gap:15px;
+    background-color: #121212;
+    /* position: absolute; */
+    width: 95%;
+     margin: 5px;
+    padding: 15px;
+    margin: auto;
+    /* align-self: center; */
+    height: 550px;
+    border-radius: 5px;
+   
+    /* padding: 5px; */
+    /* background-color: #fff; */
+}
+.aboutus .abt .con{
+    justify-self:center ;
+    align-self: center;
+    font-size: 2.2rem;
+}
+.img .abtimg{
+    height:540px ;
+    width:480px ;
+}
+.cat{
+    padding: 25px;
+    
+
+}
+.cat .card{
+    margin-top: 60px;
+}
+.contact{
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.contact .left{
+    /* margin: auto; */
+    height: 550px;
+    width: 350px;
+    background-color:#485d75;
+    border-radius: 5px;
+
+}
+.contact .right{
+
+}
+.name{
+    display: flex;
+    gap: 25px;
+}
+.fir,.sec{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.fr2  input{
+    border:1px rgba(255, 255, 255, 0.4) solid;
+    height: 25px;
+    
+    /* opacity: 0.4; */
+    border-radius: 5px;
+    padding: 6px;
+    color: #ffffff;
+
+}
+.fr2 .name input{
+    width: 245px;
+
+}
+.fr2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btns button{
+    
+    align-self: center;
+    all: unset;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(42, 42, 223);
+    padding: 2px;
+    margin-top: 20px;
+    font-size: 1rem;
+    height: 2.2rem;
+    width: 35.2rem;
+    border-radius: 15px;
+    text-align: center;
+}
+.left{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    font-size: 1.2rem;
+}
+.left h2{
+    text-align: center;
+    font-size: 2rem;
+}
+.left h3{
+    
+    font-size: 1.6rem;
+}
